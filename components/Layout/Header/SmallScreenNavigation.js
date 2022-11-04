@@ -12,14 +12,14 @@ const SmallScreenNavigation = props => {
     >
       <nav>
         <ul className="flex flex-col gap-y-5">
-          <NavigationLinks />
+          <NavigationLinks closeHandler={props.closeHandler} />
         </ul>
       </nav>
       <div className="self-center flex items-center gap-x-4">
-        <i class="text-2xl fa-brands fa-facebook-f"></i>
-        <i class="text-2xl fa-brands fa-twitter"></i>
-        <i class="text-2xl fa-brands fa-instagram"></i>
-        <i class="text-2xl fa-brands fa-dribbble"></i>
+        <i className="text-2xl fa-brands fa-facebook-f"></i>
+        <i className="text-2xl fa-brands fa-twitter"></i>
+        <i className="text-2xl fa-brands fa-instagram"></i>
+        <i className="text-2xl fa-brands fa-dribbble"></i>
       </div>
     </div>
   );

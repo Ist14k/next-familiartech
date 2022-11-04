@@ -1,31 +1,51 @@
 import { Fragment } from 'react';
 import Link from 'next/link';
 
-const NavigationLinks = () => {
+const NavigationLinks = props => {
   return (
     <Fragment>
       <li>
-        <Link className="font-bold text-sm text-primary" href="#">
+        <Link
+          onClick={props.closeHandler}
+          className="font-bold text-sm text-primary"
+          href="/"
+        >
           HOME
         </Link>
       </li>
       <li>
-        <Link className="font-bold text-sm text-primary" href="#">
+        <Link
+          onClick={props.closeHandler}
+          className="font-bold text-sm text-primary"
+          href="/posts"
+        >
           POSTS
         </Link>
       </li>
       <li>
-        <Link className="font-bold text-sm text-primary" href="#">
-          CATEGORY
+        <Link
+          onClick={props.closeHandler}
+          className="font-bold text-sm text-primary"
+          href="#"
+        >
+          CATEGORIES
         </Link>
       </li>
       <li>
-        <Link className="font-bold text-sm text-primary" href="#">
+        <Link
+          onClick={props.closeHandler}
+          className="font-bold text-sm text-primary"
+          href="/about"
+        >
           ABOUT
         </Link>
       </li>
       <li>
-        <Link className="font-bold text-sm text-primary" href="#">
+        <Link
+          onClick={props.closeHandler}
+          className="font-bold text-sm text-primary"
+          href="/contact"
+        >
           CONTACT
         </Link>
       </li>

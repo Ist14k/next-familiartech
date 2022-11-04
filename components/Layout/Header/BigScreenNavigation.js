@@ -12,13 +12,13 @@ const BigScreenNavigation = () => {
       </nav>
       <div className="hidden md:flex md:gap-x-2 md:items-center ">
         <div className="pr-6 border-r">
-          <i class="fa-solid fa-magnifying-glass"></i>
+          <i className="fa-solid fa-magnifying-glass"></i>
         </div>
         <div className="flex gap-x-3">
-          <i class="fa-brands fa-facebook-f"></i>
-          <i class="fa-brands fa-twitter"></i>
-          <i class="fa-brands fa-instagram"></i>
-          <i class="fa-brands fa-dribbble"></i>
+          <i className="fa-brands fa-facebook-f"></i>
+          <i className="fa-brands fa-twitter"></i>
+          <i className="fa-brands fa-instagram"></i>
+          <i className="fa-brands fa-dribbble"></i>
         </div>
       </div>
     </Fragment>
