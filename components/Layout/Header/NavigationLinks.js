@@ -5,47 +5,27 @@ const NavigationLinks = props => {
   return (
     <Fragment>
       <li>
-        <Link
-          onClick={props.closeHandler}
-          className="font-bold text-sm text-primary"
-          href="/"
-        >
+        <Link onClick={props.closeHandler} href="/">
           HOME
         </Link>
       </li>
       <li>
-        <Link
-          onClick={props.closeHandler}
-          className="font-bold text-sm text-primary"
-          href="/posts"
-        >
+        <Link onClick={props.closeHandler} href="/posts">
           POSTS
         </Link>
       </li>
       <li>
-        <Link
-          onClick={props.closeHandler}
-          className="font-bold text-sm text-primary"
-          href="#"
-        >
+        <Link onClick={props.closeHandler} href="#">
           CATEGORIES
         </Link>
       </li>
       <li>
-        <Link
-          onClick={props.closeHandler}
-          className="font-bold text-sm text-primary"
-          href="/about"
-        >
+        <Link onClick={props.closeHandler} href="/about">
           ABOUT
         </Link>
       </li>
       <li>
-        <Link
-          onClick={props.closeHandler}
-          className="font-bold text-sm text-primary"
-          href="/contact"
-        >
+        <Link onClick={props.closeHandler} href="/contact">
           CONTACT
         </Link>
       </li>

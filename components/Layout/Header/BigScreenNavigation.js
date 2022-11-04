@@ -6,11 +6,11 @@ const BigScreenNavigation = () => {
   return (
     <Fragment>
       <nav className="hidden md:block">
-        <ul className="flex gap-x-6">
+        <ul className="flex gap-x-6 text-gray-800 font-bold text-sm">
           <NavigationLinks />
         </ul>
       </nav>
-      <div className="hidden md:flex md:gap-x-2 md:items-center ">
+      <div className="hidden md:flex md:gap-x-2 md:items-center text-gray-800">
         <div className="pr-6 border-r">
           <i className="fa-solid fa-magnifying-glass"></i>
         </div>

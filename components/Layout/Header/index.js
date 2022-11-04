@@ -13,7 +13,7 @@ const Header = () => {
     <header className="w-full drop-shadow-sm shadow-md sticky top-0 bg-[#fff] z-50">
       <main className="mx-auto max-w-[1200px] p-6 container flex gap-y-4 items-center justify-between">
         <h1 className="text-2xl font-bold">
-          Familiar<span className="text-secondary">Tech</span>
+          Familiar<span className="text-amber-500">Tech</span>
         </h1>
         {/* navigation for big screen */}
         <BigScreenNavigation />

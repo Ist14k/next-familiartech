@@ -5,7 +5,8 @@ import '../styles/globals.css';
 
 import Header from '../components/Layout/Header';
 import Aside from '../components/Layout/Aside';
-import StorySlider from '../components/Layout/Swiper';
+// import StorySlider from '../components/Layout/Swiper';
+import Footer from '../components/Layout/Footer';
 
 const MyApp = props => {
   const { Component, pageProps } = props;
@@ -21,9 +22,8 @@ const MyApp = props => {
         <Component {...pageProps} />
         {pathname === '/' || pathname === '/posts' ? <Aside /> : null}
       </main>
-      <section className="mx-auto max-w-[1200px] px-6 mt-10">
-        <StorySlider />
-      </section>
+
+      <Footer />
     </Fragment>
   );
 };
