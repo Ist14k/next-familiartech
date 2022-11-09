@@ -16,15 +16,15 @@ const AboutUs = () => {
 
       <div className="flex flex-col gap-y-px">
         <div className="flex items-center gap-x-3">
-          <i class="fa-solid fa-location-dot text-xs pb-px text-amber-300" />
-          <p className="">5 South Main Street Los Angeles, ZZ-96110 USA</p>
+          <i className="fa-solid fa-location-dot text-xs pb-px text-amber-300" />
+          <address className="">Mollahpara Bashtala, Jashore, Khulna</address>
         </div>
         <div className="flex items-center gap-x-3">
-          <i class="fa-solid fa-phone text-xs pb-px text-amber-300" />
+          <i className="fa-solid fa-phone text-xs pb-px text-amber-300" />
           <a href="tel:+">+880 1812 820471</a>
         </div>
         <div className="flex items-center gap-x-3">
-          <i class="fa-solid fa-envelope text-xs pb-px text-amber-300" />
+          <i className="fa-solid fa-envelope text-xs pb-px text-amber-300" />
           <a href="mailto:developer.istiakahmmed@gamil.com">
             developer.istiakahmmed@gamil.com
           </a>

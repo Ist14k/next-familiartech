@@ -10,10 +10,10 @@ const Header = () => {
   const menuCloseHandler = () => setMenuState(false);
 
   return (
-    <header className="w-full drop-shadow-sm shadow-md sticky top-0 bg-[#fff] z-50">
-      <main className="mx-auto max-w-[1200px] p-6 container flex gap-y-4 items-center justify-between">
+    <header className="w-full drop-shadow-sm shadow-md sticky top-0 bg-white z-50">
+      <main className="mx-auto max-w-[1200px] py-6 px-4 container flex gap-y-4 items-center justify-between">
         <h1 className="text-2xl font-bold">
-          Familiar<span className="text-amber-500">Tech</span>
+          Familiar<span className="text-amber-600">Tech</span>
         </h1>
         {/* navigation for big screen */}
         <BigScreenNavigation />

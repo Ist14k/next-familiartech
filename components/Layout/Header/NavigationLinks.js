@@ -15,8 +15,8 @@ const NavigationLinks = props => {
         </Link>
       </li>
       <li>
-        <Link onClick={props.closeHandler} href="#">
-          CATEGORIES
+        <Link onClick={props.closeHandler} href="/news">
+          NEWS
         </Link>
       </li>
       <li>
