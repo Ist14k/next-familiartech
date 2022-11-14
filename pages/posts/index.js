@@ -2,7 +2,7 @@ import React from 'react';
 
 const PostsPage = () => {
   return (
-    <section className="w-full basis-[750px]">
+    <section className="w-full basis-[780px]">
       <h1 className="text-4xl">Posts Page</h1>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
