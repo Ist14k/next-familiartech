@@ -29,7 +29,7 @@ const HomePage = props => {
 
 const getStaticProps = async () => {
   const res = await fetch(
-    'https://api.pexels.com/v1/search?query=nature&page=1&per_page=20',
+    'https://api.pexels.com/v1/search?query=river&page=1&per_page=20',
     {
       headers: {
         Authorization:
