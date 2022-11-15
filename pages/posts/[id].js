@@ -2,11 +2,13 @@ import Image from 'next/image';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 
+import Aside from '../../components/Layout/Aside';
+
 const markdown = `
 # Welcome to FamiliarTech
 ## Istiak Ahmmed Akash
 Hi! I'm your first Markdown file in **Strapi**. If you want to learn about Strapi, you can read me. If you want to play with Markdown, you can edit me. Once you have finished with me, you can create new files by opening the **file explorer** on the left corner of the navigation bar.
-![an abstract image](https://pixabay.com/get/gffc13be357b7b64cff550876128bff601ed66df9d2c84e48c4681bb75cc3f81a9714d0173e16f7c832002fdde67cce29334ca835bbddabd04490d91dfb17268183454babcf023c36129524f97b2d42bb_1920.jpg)
+![an abstract image](https://images.pexels.com/photos/1509534/pexels-photo-1509534.jpeg)
 
 |abc|efg  |
 |--|--|
@@ -45,15 +47,7 @@ const PostDetails = props => {
           <h1 className="text-2xl font-bold">Response Data: </h1>
           <p className="mt-2">{JSON.stringify(data)}</p>
         </article>
-        <aside className="basis-[330px] flex-grow-0">
-          <h1 className="text-2xl font-bold">Aside for detail page</h1>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum
-            beatae facere, mollitia non dolore, dolor, exercitationem
-            dignissimos dolorem quisquam ut quidem asperiores! Impedit id
-            sapiente est sed eveniet nostrum vero.
-          </p>
-        </aside>
+        <Aside />
       </div>
     </section>
   );
